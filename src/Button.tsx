@@ -21,13 +21,15 @@ export const buttonVariants = cva(
       },
       size: {
         default: "h-10 py-2 px-4 text-base",
-        sm: "h-9 px-2 text-md",
-        lg: "h-12 px-8 text-xl leading-none"
+        sm: "h-9 px-2 text-sm",
+        md: "h-10 px-6 text-md",
+        lg: "h-12 px-8 text-xl"
       },
       rounded: {
         default: "rounded-3xl",
         sm: "rounded-xl",
         lg: "rounded-3xl",
+        full: "rounded-full",
         none: "rounded-none"
       },
       stateColor: {
